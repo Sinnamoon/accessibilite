@@ -34,7 +34,7 @@ export default function Navbar() {
                                 </Disclosure.Button>
                             </div>
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                                <div className="flex flex-shrink-0 items-center animate-pulse">
+                                <div className="flex flex-shrink-0 items-center">
                                     <img
                                         className="h-8 w-auto"
                                         src="https://upload.wikimedia.org/wikipedia/commons/3/35/Emoji_u2665.svg"
@@ -118,7 +118,7 @@ export default function Navbar() {
                                             <Menu.Item>
                                                 {({active}) => (
                                                     <a
-                                                        href="#"
+                                                        href="/login"
                                                         className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                                                     >
                                                         Sign out

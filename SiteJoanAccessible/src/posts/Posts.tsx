@@ -11,7 +11,7 @@ const Posts = () => {
 	the development of web pages, many non-browser
 	environments also use it. JavaScript can be
 	used for Client-side developments as well as
-	Server-side developments`,
+	Server-side developments...`,
             author: "Jean Dupont",
             imgUrl:
                 "https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png",
@@ -61,7 +61,8 @@ const Posts = () => {
         },
     ];
     return (
-        <section className="posts-container">
+        <section className="posts-container" aria-label="articles container">
+            <h1 className="main-title">Articles: </h1>
             {blogPosts.map((post, index) => (
                 <Post key={index} index={index} post={post}/>
             ))}

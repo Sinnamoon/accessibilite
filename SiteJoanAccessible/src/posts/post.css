@@ -21,10 +21,11 @@
 }
 
 .heading {
-    /* Set specific height or font-size to control heading size */
-    height: 3em; /* Example height */
-    font-size: 1.2em; /* Example font size */
+    height: 3em;
+    font-size: 1.2em;
     display: flex;
+    text-underline: black;
+    text-decoration: underline;
 }
 
 .image {
@@ -60,4 +61,12 @@
 
 body {
     background-color: #e2e8d5;
+}
+
+.main-title {
+    text-align: start;
+    font-size: 2.5em;
+    margin-left: 1.2em;
+    margin-top: 1em;
+    font-weight: bold;
 }
